@@ -1,4 +1,4 @@
-###Introduccion a Python
+#Introduccion a Python
 <p>
 Python es un lenguaje de programación potente y fácil de aprender. Tiene estructuras de datos de alto nivel eficientes y un simple pero efectivo sistema de programación orientado a objetos. 
 </p>
