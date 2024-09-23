@@ -15,3 +15,24 @@ a = 3
 b = 6
 
 print(nombre)
+
+# En python todo es un objeto
+
+x = type(a)
+print(x)
+
+mensaje = """
+Esto es un mensaje 
+con tres saltos de linea 
+"""
+print(mensaje)
+
+# Operadores de comparacion: if, if else
+
+numero1 = 5
+numero2 = 7
+
+if numero1 > numero2:
+    print("El numero uno es mayor")
+else:
+    print("El numero dos es mayor")
