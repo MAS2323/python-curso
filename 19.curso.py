@@ -11,9 +11,15 @@ class Coche():
         self.__enmarcha = False
 
     def arrancar(self, arrancamos):
-        self.enmarcha = arrancamos
+        self.__enmarcha = arrancamos
+
         if (self.__enmarcha):
+            chequeo = self.__chequeo_interno()
+
+        if (self.__enmarcha and chequeo):
             return "El coche esta en marcha"
+        elif (self.__enmarcha and chequeo == False):
+            return "Algo ha ido mal en el chequeo. No podemos arrancar"
         else:
             "El coche esta parado"
 
@@ -21,17 +27,27 @@ class Coche():
         print("El coche tiene ", self.__ruedas, "ruedas. Un ancho de ", self.__anchoChasis, "y un largo de",
               self.__largoChasis)
 
+    def __chequeo_interno(self):
+        print("Realizando chequeo interno")
+
+        self.gasolina = "ok"
+        self.aceite = "mal"
+        self.puerta = "cerradas"
+
+        if (self.gasolina == "ok" and self.aceite == "ok" and self.puerta == "cerradas"):
+            return True
+        else:
+            return False
+
 
 miCoche = Coche()
 print(miCoche.arrancar(True))
 
 miCoche.estado()
-
 print("----------------A contnuacion creamos el segundo objeto---------------")
 
 # Segunda instancia
 miCoche2 = Coche()
 print(miCoche2.arrancar(False))
 
-miCoche2.ruedas = 5
 miCoche2.estado()
