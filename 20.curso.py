@@ -47,9 +47,10 @@ class Moto(Vehiculos):
               )
 
 
-class VElectricos():
+class VElectricos(Vehiculos):
 
-    def __init__(self):
+    def __init__(self, marca, modelo):
+        super().__init__(marca, modelo)
         self.autonomia = 100
 
     def cargarEnergia(self):
@@ -80,4 +81,4 @@ class BicicletaElectrica(VElectricos, Vehiculos):
     pass
 
 
-miBici = BicicletaElectrica()
+miBici = BicicletaElectrica("sdjdsa", "vfdjdfs")
