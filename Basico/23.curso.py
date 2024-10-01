@@ -24,3 +24,5 @@ else:
 # o al final, la dirección también será errónea,
 
 email = input("Introduce tu direccion de email: ")
+
+# if (email == '@')
