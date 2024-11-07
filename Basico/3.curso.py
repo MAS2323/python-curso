@@ -39,7 +39,7 @@ suma(35, 9)
 
 print("----------------------------------------------------------------------------------------------")
 
-# Para paiton todo es referencia, todos los valores se pasan por referencia
+# Para python todo es referencia, todos los valores se pasan por referencia
 
 
 def suma2(num1, num2):
@@ -47,6 +47,6 @@ def suma2(num1, num2):
     return resultado
 
 
-almacena_resultadp = suma2(4, 5)
+almacena_resultado = suma2(4, 5)
 
-print(almacena_resultadp)
+print(almacena_resultado)

@@ -16,7 +16,7 @@ for i in miEmail:
     # # El agumento end determina como queremos que se imprima nuestro bucle
     # print('hola', end="")
 
-    if (i == '@' or i == "."):
+    if (i == '@' or i == "."):  # Se tiene que cumplir estas dos condiciones
         contador = contador + 1
 if contador == 2:
     print("Email es correcto")

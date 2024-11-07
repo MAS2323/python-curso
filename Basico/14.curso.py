@@ -17,7 +17,7 @@ for i in nombre:
 print(len(nombre))
 
 # La instruccion pass lo que devuelve esta funcion es un null
-# se usa sobre toda para especificar que algo de hara luego
+# se usa sobre toda para especificar que algo se hara luego
 
 
 class MiClase:

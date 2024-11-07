@@ -3,7 +3,9 @@
 
 # Sintaxis
 # Los generadores son mas eficientes que las funciones
-"""Def gerenarNumeros():
+"""
+    Sintaxis
+Def gerenarNumeros():
     yield numeros"""
 
 
@@ -29,9 +31,10 @@ print("Aqui podria ir mas codigo....")
 
 print(next(devuelvePares))
 
-
 # La instruccion Yield from: esta instruccion simplifica el codigo de los generadores
-# en el caso de utilizar bucles anidados: eje: un for deontro de otro for
+# en el caso de utilizar bucles anidados: eje: un for dentro de otro for
+
+
 def devuelve_ciudades(*ciudades):
     for elemento in ciudades:
         # for subElementos in elemento:

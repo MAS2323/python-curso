@@ -23,6 +23,8 @@ class Vehiculos():
         print('Marca: ', self.marca, "\nModelo: ", self.modelo, "\nEn Marcha: ",
               self.enmarcha, "\nAcelerando: ", self.acelera, "\nFrenado: ", self.frena)
 
+# Clase Furgoneta que hereda de la clase Vehiculos
+
 
 class Furgoneta(Vehiculos):
     def carga(self, cargar):
@@ -31,6 +33,8 @@ class Furgoneta(Vehiculos):
             return "La furgoneta esta cargada"
         else:
             return "La furgoneta no esta cargada"
+
+# Clase Moto que hereda de la clase Vehiculos
 
 
 class Moto(Vehiculos):
@@ -50,6 +54,7 @@ class Moto(Vehiculos):
 class VElectricos(Vehiculos):
 
     def __init__(self, marca, modelo):
+        # Metodo super, nos permite heredar todas las variables y metodos de la clase madre
         super().__init__(marca, modelo)
         self.autonomia = 100
 

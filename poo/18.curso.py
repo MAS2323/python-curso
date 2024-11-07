@@ -1,6 +1,6 @@
 # POO Programacion Orientada a Objetos
 
-class Coche():
+class Coche():  # Definicion de una clase
     # Caracteriscas de la clase Coche (propiedades)
     largoChasis = 250
     anchoChasis = 120

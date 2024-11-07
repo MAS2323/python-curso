@@ -23,6 +23,6 @@ def desplazamientovehiculo(vehiculo):
     vehiculo.desplazamiento()
 
 
-miVehiculo = Coche()
+miVehiculo = Moto()
 
 desplazamientovehiculo(miVehiculo)

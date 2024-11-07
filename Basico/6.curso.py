@@ -15,7 +15,7 @@ print(miDiccionario)
 miDiccionario['Italia'] = 'Roma'
 print(miDiccionario)
 
-# eliminar un elemento del diccionario
+# eliminar un elemento del diccionario: usamos la funcion del
 del miDiccionario['Reino Unido']
 print(miDiccionario)
 

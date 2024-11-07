@@ -24,7 +24,7 @@ import math
 print("Programa de calculo de la raiz cuadrada")
 numero = int(input("Introduce un numero por favor: "))
 
-intentos = 0
+intentos = 0  # contador
 
 while numero < 0:
     print("No se puede hallar la raiz cuadrad de un numero negativo")

@@ -23,6 +23,16 @@ else:
 # ninguna ‘@’ la dirección será errónea. Si la ‘@’ está al comienzo de la dirección de email
 # o al final, la dirección también será errónea,
 
-email = input("Introduce tu direccion de email: ")
 
-# if (email == '@')
+def validar_email(email):
+    if email.count('@') == 1 and email[0] != '@' and email[-1] != '@':
+        return True
+    return False
+
+
+email = input("Introduce una dirección de email: ")
+
+if validar_email(email):
+    print("La dirección de email es correcta.")
+else:
+    print("La dirección de email es incorrecta.")

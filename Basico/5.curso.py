@@ -26,11 +26,11 @@ print(miTupla.count(23))
 print(len(miTupla))
 
 # Tuplas unitarias: son tuplas con un unico elemento
-miTuplaUnitaria = ('Antonio',)
+miTuplaUnitaria = ('Antonio')
 print(len(miTuplaUnitaria))
 
 # Ala hora de crear una tupla los parentecis son opcionales
-# Cuando lo escribimos una tupla sin parentecis lo conocemos como empaquetado de una tupla
+# Cuando escribimos una tupla sin parentecis lo conocemos como empaquetado de una tupla
 miTupla2 = 'Manolo', 13, 1, 1994
 print(miTupla2)
 nombre, dia, mes, agno = miTupla2
