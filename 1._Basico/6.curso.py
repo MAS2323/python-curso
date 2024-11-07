@@ -1,5 +1,5 @@
 # Los Diccionarios
-# Los son estructuras de datos que nos permiten almacenar datos de todo tipo, en el formato de clave: valor
+# Son estructuras de datos que nos permiten almacenar datos de todo tipo, en el formato de clave: valor
 # Sintaxis
 miDiccionario = {
     "Alemania": "Berlin",

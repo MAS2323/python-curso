@@ -33,6 +33,7 @@ def suma(num1, num2):  # Paso por paramatros
     print(num1 + num2)
 
 
+# Declaracion o llamada de la funcion y paso de parametros a la misma
 suma(3, 7)
 suma(67, 8)
 suma(35, 9)

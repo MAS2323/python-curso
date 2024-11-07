@@ -1,5 +1,7 @@
 # Polimorfismo
 # Se emplea cuando hay varias clases que realizan el mismo metodo y se llama de la misma forma
+# El polimorfismo en programacion quiere decir que un objeto puede cambiar de forma dependiendo del contexto
+
 class Gato:
     def sonido(self):
         return 'Miau'

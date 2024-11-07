@@ -1,6 +1,6 @@
 # Bucle for
 # Existen ducles determinados e indeterminados
-# Bucle for determinado: sintaxis for variable in elemento a recorer:
+# El Bucle for es determinado: sintaxis (for variable in elemento a recorer):
 # cuerpo del bucle
 
 # for i in [1, 2, 3, 4]:
@@ -16,7 +16,8 @@ for i in miEmail:
     # # El agumento end determina como queremos que se imprima nuestro bucle
     # print('hola', end="")
 
-    if (i == '@' or i == "."):  # Se tiene que cumplir estas dos condiciones
+    # Se tiene que cumplir estas dos condiciones, al cumplirse las dos condiciones es cuando se sumara el contador
+    if (i == '@' or i == "."):
         contador = contador + 1
 if contador == 2:
     print("Email es correcto")

@@ -1,5 +1,5 @@
 import math
-# Bucle while: bucle indeterminado
+# Bucle while: el bucle es un bucle indeterminado o infinito
 # i = 1
 
 # while i <= 10:

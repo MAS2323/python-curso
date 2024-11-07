@@ -7,12 +7,13 @@ miLista = ['Maria', 66, True, 'Pepe', 'Antonio', 'Carmelo', 78.88]
 print(miLista[:])  # Imprimir toda la lista
 print(miLista[3])  # Imprimer el tercer elemento de mi lista
 # acceder a una porcion de mi lista del primer(o) al segundo elemento(2)
+# Cuando usamos esta sintaxis solo se coge del primer al ultimo menos uno ej print(miLista(x, n))= x,...,n-1
 print(miLista[0:3])
 
 # Agregar elementos a la ultima posicion de mi lista usamos la funcion append
 miLista.append('Sandra')
 print(miLista)
-# Usamos inserte(n1,n2) para determinar donde ira el elemento que agregaremos en nuestra lista
+# Usamos insert(n1,n2) para determinar donde ira el elemento que agregaremos en nuestra lista n1 = posicion, n2 = elemento a agragar
 
 miLista.insert(2, "Manuel")
 print(miLista[:])

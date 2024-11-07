@@ -9,10 +9,10 @@ print(miTupla[0])
 # Metodos aplicables a las tuplas
 # Convertir de lista a tupla y viceversa
 
-miLista = list(miTupla)
+miLista = list(miTupla)  # De tupla a lista
 print(miLista[:])
 
-miTupla = tuple(miLista)
+miTupla = tuple(miLista)  # DE lista a tupla
 print(miTupla)
 
 # Una tupla tambien permite el metodo in para comprobar si hay un elemto en la tupla
@@ -33,7 +33,7 @@ print(len(miTuplaUnitaria))
 # Cuando escribimos una tupla sin parentecis lo conocemos como empaquetado de una tupla
 miTupla2 = 'Manolo', 13, 1, 1994
 print(miTupla2)
-nombre, dia, mes, agno = miTupla2
+nombre, dia, mes, agno = miTupla2  # Empaquetado
 print(nombre)
 print(dia)
 print(mes)

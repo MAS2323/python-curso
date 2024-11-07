@@ -5,6 +5,8 @@ print("Programa de evaluacion de notas de alumnos")
 
 nota_alumno = int(input("Introuce la nota del alumno: "))
 
+# Paso por parametro
+
 
 def evaluacion(nota):
     valoracion = "aprobado"

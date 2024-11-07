@@ -32,7 +32,7 @@ print("Aqui podria ir mas codigo....")
 print(next(devuelvePares))
 
 # La instruccion Yield from: esta instruccion simplifica el codigo de los generadores
-# en el caso de utilizar bucles anidados: eje: un for dentro de otro for
+# en el caso de utilizar bucles anidados: ejemplo: un for dentro de otro for
 
 
 def devuelve_ciudades(*ciudades):
