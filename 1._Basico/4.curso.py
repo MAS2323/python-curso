@@ -18,7 +18,7 @@ print(miLista)
 miLista.insert(2, "Manuel")
 print(miLista[:])
 
-# Para agregar varios eementos a una lista utilizamos la funcion extend
+# Para agregar varios elementos a una lista utilizamos la funcion extend
 miLista.extend(['Ferando', 'Abilio', 'Saturnino'])
 print(miLista[:])
 

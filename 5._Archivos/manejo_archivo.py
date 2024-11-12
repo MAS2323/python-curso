@@ -3,9 +3,9 @@ from io import open
 
 archivo_text = open("archivo.txt", "r+")
 """
-read "r"
-append "a"
-weite "w"
+read "r" (leer)
+append "a" (agregar)
+write "w" (escribir)
 lectura y escritura "r+"
 """
 

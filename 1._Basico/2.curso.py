@@ -27,7 +27,7 @@ con tres saltos de linea
 """
 print(mensaje)
 
-# Operadores de comparacion: if, if else
+# Operadores de comparacion: if, if else, elif
 
 numero1 = 5
 numero2 = 7

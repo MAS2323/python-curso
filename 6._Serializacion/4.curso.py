@@ -22,7 +22,7 @@ class ListaPersona:
     personas = []
 
     def __init__(self):
-        listaPersonas = open('ficheroExterno', 'ab+')
+        listaPersonas = open('ficheroExterno', 'ab+')  # ab+ append binary
         listaPersonas.seek(0)  # Desplazar el cursor a la posicion cero
 
         try:

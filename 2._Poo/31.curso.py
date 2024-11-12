@@ -44,3 +44,5 @@ mas_onewe.hacer_actividad()
 pedro_mas.presentarse()
 pedro_mas.hacer_actividad()
 # mas_onewe.trabajar()  # Ahora también puedes llamar a trabajar()
+
+# En nuestro ejemplo el metodo hacer_actividad() pasa a ser nuestro metodo abstracto
