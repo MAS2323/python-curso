@@ -10,7 +10,7 @@ class Coche():
         self.__ruedas = 4
         self.__enmarcha = False
 
-    def arrancar(self, arrancamos):
+    def arrancar(self, arrancamos):  # metodo de nuestra clase
         self.__enmarcha = arrancamos
 
         if (self.__enmarcha):
@@ -23,11 +23,11 @@ class Coche():
         else:
             "El coche esta parado"
 
-    def estado(self):
+    def estado(self):  # Metodo de nuestra clase
         print("El coche tiene ", self.__ruedas, "ruedas. Un ancho de ", self.__anchoChasis, "y un largo de",
               self.__largoChasis)
 
-    def __chequeo_interno(self):
+    def __chequeo_interno(self):  # Metodo de nuestra clase
         print("Realizando chequeo interno")
 
         self.gasolina = "ok"

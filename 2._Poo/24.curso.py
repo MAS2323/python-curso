@@ -26,3 +26,8 @@ class EmpleadoArtista(Persona, Artista):
         Artista.__init__(self, habilidad)
         self.salario = salario
         self.empresa = empresa
+
+
+miArtista = Artista('cantar')
+
+miArtista.mostrar_habilidad()

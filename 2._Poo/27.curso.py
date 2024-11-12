@@ -9,7 +9,7 @@ class Persona:
 
     # Getter: nos permite acceder a un valor privado
     def get_nombre(self):
-        return self.__nombre
+        return self.__nombre, self.__edad
     # Setter: nos permite modificar un valor privado
 
     def set_nombre(self, new_nombre):

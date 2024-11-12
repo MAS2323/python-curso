@@ -2,7 +2,7 @@
 # La herencia sirve para reutilizar codigo
 # Sobre escritura de metoso, herencia simple y multiple
 class Vehiculos():
-
+    # Definiendo los metodos de la clase Vehiculos()
     def __init__(self, marca, modelo) -> None:
         self.marca = marca
         self.modelo = modelo
@@ -23,8 +23,8 @@ class Vehiculos():
         print('Marca: ', self.marca, "\nModelo: ", self.modelo, "\nEn Marcha: ",
               self.enmarcha, "\nAcelerando: ", self.acelera, "\nFrenado: ", self.frena)
 
-# Clase Furgoneta que hereda de la clase Vehiculos
 
+# Clase Furgoneta que hereda de la clase Vehiculos
 
 class Furgoneta(Vehiculos):
     def carga(self, cargar):
@@ -50,10 +50,12 @@ class Moto(Vehiculos):
               self.hcaballito
               )
 
+# Clase VElectricos que hereda los metodos y propiedades de la clase Vehiculos
+
 
 class VElectricos(Vehiculos):
 
-    def __init__(self, marca, modelo):
+    def __init__(self, marca, modelo):  # metodo constructor
         # Metodo super, nos permite heredar todas las variables y metodos de la clase madre
         super().__init__(marca, modelo)
         self.autonomia = 100
@@ -65,6 +67,7 @@ class VElectricos(Vehiculos):
 # que tener las caracteristicas de la clase padre
 
 
+# instancia de la clase moto: el modelo y la marca lo hereda de la clase vehiculo
 miMoto = Moto("Honda", "CBR")
 
 miMoto.caballito()
@@ -78,12 +81,14 @@ print(miFurgoneta.carga(True))
 
 # Herrencia multiples
 # Si las dos clases que se heredan tienen
-# construcctores la clase heredera heredara el construcctor de la primer clase
+# construcctores la clase heredara el construcctor de la primer clase
 # Podemos usar muchas clases, siempre daremos preferencia a la que este mas a la izquierda
 
 
 class BicicletaElectrica(VElectricos, Vehiculos):
-    pass
+    # en este ejemplo podemos ver que esta clase BicicletaElectrica hereda el metodo constructor de la clase VElectricos
+    def __init__(self, marca, modelo):
+        super().__init__(marca, modelo)
 
 
 miBici = BicicletaElectrica("sdjdsa", "vfdjdfs")

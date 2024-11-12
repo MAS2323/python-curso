@@ -1,15 +1,14 @@
 # La funcion super(): halla donde lo uses en tu codigo va a llamar al metodo padre
 
-class Persona():
+class Persona():  # clase principal
 
-    def __init__(self, nombre, edad, lugar_residencia):
+    def __init__(self, nombre, edad, lugar_residencia):  # metodo constructor
         self.nombre = nombre  # self.nombre variables de clase
         self.edad = edad
         self.lugar_residencia = lugar_residencia
 
     # metodos
-    def descripcion(self):
-
+    def descripcion(self):  # este metodo sirve para capturar los valores de la clase persona
         print("Nombre: ", self.nombre, " Edad: ", self.edad,
               " Residencia: ", self.lugar_residencia)
 
@@ -22,12 +21,13 @@ class Empleado(Persona):
         self.antiguedad = antiguedad
 
     def descripcion(self):
+        # uso de la funcion super para acceder al metodo descripcion de la clase padre
         super().descripcion()
         print("Salario: ", self.salario, "Antiguedad", self.antiguedad)
 
 
-Antonio = Persona("Victoriano", 55, "Malaga")
-Antonio.descripcion()
+Antonio = Persona("Victoriano", 55, "Malaga")  # instanciar la clase persona
+Antonio.descripcion()  # acceder al metodo descripcion de la clase persona
 
 # Principio de sustitucion
 # Cuando tenemos herencia un objeto de la subclase siempre sera un objeto de la supercase

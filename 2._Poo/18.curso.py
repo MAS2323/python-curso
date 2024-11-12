@@ -9,7 +9,7 @@ class Coche():  # Definicion de una clase
 
     # Comportamiento de nuestro objeto se determinan mediante metodos
     # Self hace referencia al propio objeto
-    def arrancar(self):
+    def arrancar(self):  # Metodo de nuestra clase
         self.enmarcha = True
 
     def estado(self):

@@ -1,3 +1,5 @@
+# Uso de la libreria abc y su metodo abstractmethod
+# La abstraccion consiste en ocultar la complejidad interna de un sistema
 from abc import ABC, abstractmethod
 
 
