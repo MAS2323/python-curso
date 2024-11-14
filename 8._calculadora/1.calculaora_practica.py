@@ -10,7 +10,7 @@ miFrame.pack()
 
 # Variable global
 operacion = ""
-
+resultado = 0
 
 # --------------------------Pantalla--------------------------------------
 # Esta interface se construira con un Entry
@@ -42,16 +42,34 @@ def numeroPulsado(numero):
 
 
 # -------------------Funcion Suma------------------------------------
-def suma():
-
+def suma(num):
+    # El resultado sera la variable donde se ira guardando los valores que vayamos sumando
     global operacion
+
+    global resultado
+
+    # num sera el numero que introduzcamos por pantalla
+    resultado += int(num)
 
     operacion = "suma"
 
+    numeroPantalla.set(resultado)
+
+
+# ---------------Funcion el_resultado----------------------------------------
+
+def el_resultado():
+
+    global resultado
+
+    numeroPantalla.set(resultado + int(numeroPantalla.get()))
+
+    resultado = 0
 
 # -----------------------Primera fila de botones----------------------------
 
 # ---------------Fila uno(1)---------------------------------
+
 
 botton7 = Button(miFrame, text="7", width=3,
                  command=lambda: numeroPulsado("7"))
@@ -104,9 +122,12 @@ botton0.grid(row=5, column=1)
 bottonComa = Button(miFrame, text=",", width=3,
                     command=lambda: numeroPulsado(","))
 bottonComa.grid(row=5, column=2)
-bottonIgual = Button(miFrame, text="=", width=3)
+bottonIgual = Button(miFrame, text="=", width=3,
+                     command=lambda: el_resultado())
 bottonIgual.grid(row=5, column=3)
-bottonSuma = Button(miFrame, text="+", width=3, command=lambda: suma())
+bottonSuma = Button(miFrame, text="+", width=3,
+                    # con numeroPantalla.get() capturamos los valores que introducimos por pantalla
+                    command=lambda: suma(numeroPantalla.get()))
 bottonSuma.grid(row=5, column=4)
 
 # ------------------Tecla para eliminar valores-----------------------

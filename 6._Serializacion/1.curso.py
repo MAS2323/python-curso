@@ -17,7 +17,7 @@ del (fichero_binario)
 """
 
 # Codigo para rescatar la informacion del fichero binario
-# rb = read benary (lectura en binario )
+# rb = read benary (lectura en binario)
 fichero = open('lista_nombres', 'rb')
 
 # El metodo load se utiliza para cargar la informacion en formato binario

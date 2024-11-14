@@ -1,4 +1,4 @@
-# Widget Entri
+# Widget Entry
 # La propiedad sticky podemos ubicafr elemntos de nuestra interfaz usando los puntos cardinales
 
 from tkinter import *
