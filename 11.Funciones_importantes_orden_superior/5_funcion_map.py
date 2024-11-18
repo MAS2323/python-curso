@@ -31,7 +31,10 @@ lista_empleados = [
 
 def calculoComision(empleado):
     # devolvera el slario de los empleados mas un 3% del mismo
-    empleado.salario = empleado.salario*1.03
+
+    if (empleado.salario <= 3000):
+
+        empleado.salario = empleado.salario*1.03
 
     return empleado
 
