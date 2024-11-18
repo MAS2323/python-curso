@@ -83,7 +83,7 @@ print(miFurgoneta.carga(True))
 
 # Herrencia multiples
 # Si las dos clases que se heredan tienen
-# construcctores la clase heredara el construcctor de la primer clase
+# construcctores, la clase heredara el construcctor de la primer clase
 # Podemos usar muchas clases, siempre daremos preferencia a la que este mas a la izquierda
 
 

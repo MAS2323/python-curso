@@ -11,7 +11,7 @@ else:
     print("Puedes pasar")
 print("El programa a finalizado")
 
-# Tambien tenemos la opcion de elif cuando tenemos varias condiciones
+# Tambien tenemos la opcion del elif cuando tenemos varias condiciones
 
 nota_alumno = int(input("Introduzca tu nota por favor: "))
 
