@@ -8,14 +8,14 @@ miDiccionario = {
     "Reino Unido": "Londres"
 }
 # Para acceder a los valores del diccionario tenemos que hacerlo con su clave o valor
-# Asignar valores a un diccionarios
+# Asignar valores a un diccionario
 miDiccionario['Italia'] = 'Lisboa'
 print(miDiccionario)
 
 miDiccionario['Italia'] = 'Roma'
 print(miDiccionario)
 
-# eliminar un elemento del diccionario: usamos la funcion del
+# para eliminar un elemento del diccionario: usamos la funcion del
 del miDiccionario['Reino Unido']
 print(miDiccionario)
 

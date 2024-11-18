@@ -3,6 +3,7 @@
 # Sobre escritura de metoso, herencia simple y multiple
 class Vehiculos():
     # Definiendo los metodos de la clase Vehiculos()
+    # Metodo constructor
     def __init__(self, marca, modelo) -> None:
         self.marca = marca
         self.modelo = modelo
@@ -10,6 +11,7 @@ class Vehiculos():
         self.acelera = False
         self.frena = False
 
+    # metodos de nuestra clase
     def arrancar(self):
         self.enmarcha = True
 
@@ -70,7 +72,7 @@ class VElectricos(Vehiculos):
 # instancia de la clase moto: el modelo y la marca lo hereda de la clase vehiculo
 miMoto = Moto("Honda", "CBR")
 
-miMoto.caballito()
+miMoto.caballito()  # metodo exclusivo de la clase moto
 
 miMoto.estado()
 

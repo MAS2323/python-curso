@@ -1,6 +1,6 @@
 # Decoradores
 # En python una funcion decorador es una funcion que decora a otra
-# Son usados para validacion de sesiones, la medicion del tiempo de jecucion etc.
+# Son usados para validacion de sesiones, la medicion del tiempo de ejecucion etc.
 
 def decorador(function):
     def funcion_modificada():

@@ -17,5 +17,5 @@ class Auto():
         print('Conduciendo el auto')
 
 
-mi_auto = Auto()
+mi_auto = Auto()  # instanciando la clase
 mi_auto.conducir()

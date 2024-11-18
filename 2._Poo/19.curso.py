@@ -45,7 +45,7 @@ miCoche = Coche()
 print(miCoche.arrancar(True))
 
 miCoche.estado()
-print("----------------A contnuacion creamos el segundo objeto---------------")
+print("----------------A contnuacion creamos el segundo objeto o la segunda instancia---------------")
 
 # Segunda instancia
 miCoche2 = Coche()

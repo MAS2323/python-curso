@@ -25,7 +25,7 @@ else:
     print("El email es incorrecto")
 
 # -----------------------------------------------------------------------------------------
-# El tipo range() es una funcion que crea un array que empieza desde el 0 has n
+# El range() es una funcion que crea un array que empieza desde el 0 has n
 
 for i in range(5):
     print('Hola')

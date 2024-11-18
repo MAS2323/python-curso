@@ -16,7 +16,7 @@ def nombre_funcion(parametros):
 
 
 def mensaje():  # Declaracion de la funion
-
+    # Cuerpo de la funcion
     print("Estamos aprendiendo pyhton")
     print("Estamos aprendiendo instruciones basicas")
     print("Poco apoco iremos avanzando")
@@ -26,7 +26,7 @@ mensaje()  # llamada de la funion
 
 print("----------------------------------------------------------------------------------------------")
 
-# La principal utilidad de una funcion es reutilizarlo
+# La principal utilidad de una funcion es su reutilizacion
 
 
 def suma(num1, num2):  # Paso por paramatros

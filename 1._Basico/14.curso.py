@@ -16,7 +16,7 @@ for i in nombre:
 
 print(len(nombre))
 
-# La instruccion pass lo que devuelve esta funcion es un null
+# La instruccion pass, lo que devuelve esta funcion es un null
 # se usa sobre toda para especificar que algo se hara luego
 
 

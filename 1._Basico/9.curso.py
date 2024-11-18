@@ -16,6 +16,6 @@ print("Salario presidente: " + str(salario_administrativo))
 # Condicional de evaluacion
 # Concatenacion de operadores de comparacion
 if salario_administrativo < salario_jefe_area < salario_director < salario_precidente:
-    print('Tod ofunciona correctamente')
+    print('Todo ofunciona correctamente')
 else:
     print('Algo falla en esta empresa')
