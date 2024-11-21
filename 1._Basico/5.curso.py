@@ -29,7 +29,7 @@ print(len(miTupla))
 miTuplaUnitaria = ('Antonio')
 print(len(miTuplaUnitaria))
 
-# Ala hora de crear una tupla los parentecis son opcionales
+# A la hora de crear una tupla los parentecis son opcionales
 # Cuando escribimos una tupla sin parentecis lo conocemos como empaquetado de una tupla
 miTupla2 = 'Manolo', 13, 1, 1994
 print(miTupla2)
