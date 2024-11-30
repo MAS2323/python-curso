@@ -6,6 +6,7 @@ archivo_text = open("archivo.txt", "r+")
 read "r" (leer)
 append "a" (agregar)
 write "w" (escribir)
+w+ = abre el fichero tanto para lectura como para escritura.
 lectura y escritura "r+"
 """
 

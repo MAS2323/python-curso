@@ -20,6 +20,7 @@ del miDiccionario['Reino Unido']
 print(miDiccionario)
 
 print("-------------------------------------Mezclas en diccionarios--------------------------------")
+# Ya que un diccionario permite almacenar cualquier tipo de dato, podemos hacer una combinacion
 
 miTupla = ('Reino Unido', 'Francia', 'Alemania')
 miDiccionario2 = {

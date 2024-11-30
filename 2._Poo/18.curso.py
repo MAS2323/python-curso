@@ -12,7 +12,7 @@ class Coche():  # Definicion de una clase
     def arrancar(self):  # Metodo de nuestra clase
         self.enmarcha = True
 
-    def estado(self):
+    def estado(self):  # este metodo sirve para definir el estado de nuestra clase
         if (self.enmarcha):
             return "El coche esta en marcha"
         else:

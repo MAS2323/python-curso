@@ -29,6 +29,7 @@ class Vehiculos():
 # Clase Furgoneta que hereda de la clase Vehiculos
 
 class Furgoneta(Vehiculos):
+    # la clase furgoneta hereda toda las variables y metodos de la clase Vehiculos
     def carga(self, cargar):
         self.cargado = cargar
         if (self.cargado):

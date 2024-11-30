@@ -1,6 +1,6 @@
 # Los Modulos
 # Son archivos con extension .py .pyc (Python Compilado) o archivos escritos en c
-# para python, que posee su propio espacio de nombre y que puede contener variables, funciones,
+# para python, que posee su propio espacio de nombre y que puede contener variables, funciones, 
 # clases e incluso otros modulos
 # Este es el modulo principal
 def sumar(op1, op2):

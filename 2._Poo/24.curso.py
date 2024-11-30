@@ -1,4 +1,4 @@
-#
+# Herencia multiple
 class Persona:
     def __init__(self, nombre, edad, nacionalidad):
 
@@ -22,6 +22,7 @@ class Artista:
 
 class EmpleadoArtista(Persona, Artista):
     def __init__(self, nombre, edad, nacionalidad, habilidad, salario, empresa):
+        # Heredando los consrtuctores de la clase Persona y Artista
         Persona.__init__(self, nombre, edad, nacionalidad)
         Artista.__init__(self, habilidad)
         self.salario = salario

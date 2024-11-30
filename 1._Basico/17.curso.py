@@ -10,9 +10,9 @@
         return "eres muy joven"
     elif edad < 40:
         return "Eres joven"
-    elif edad < 65:
+    elif edad > 65:
         return "Eres maduro"
-    elif edad < 100:
+    elif edad > 100:
         return "Cuidate"
 
 

@@ -16,7 +16,7 @@ def multi(num1, num2):
 def divi(num1, num2):
     try:
         return num1 / num2
-    except ZeroDivisionError:
+    except ZeroDivisionError:  # nombre de una excepcion o error
         print("No se puede dividir entre cero")
         return "Operacion erronea"
 

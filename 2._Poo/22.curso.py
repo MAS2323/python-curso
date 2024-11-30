@@ -19,8 +19,10 @@ class Camion():
         print("Me desplazo utilizando seis ruedas")
 
 
-# en este ejemplo el metodo desplazamiento es polimorfo
+# en este ejemplo el metodo desplazamiento es polimorfo:
+# ya que lo tienen varias clases pero lo aplican de diferentes formas
 
+# funcion poliforma
 def desplazamientovehiculo(vehiculo):
     vehiculo.desplazamiento()
 

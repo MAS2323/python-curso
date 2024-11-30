@@ -5,7 +5,7 @@
 def decorador(function):
     def funcion_modificada():
         print('Antes de llamar a la funcion')
-        function()
+        function()  # Esta funcion actua como decorador
         print('Despues de llamar la funcion')
     return funcion_modificada
 

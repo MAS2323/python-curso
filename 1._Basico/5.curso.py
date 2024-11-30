@@ -9,17 +9,19 @@ print(miTupla[0])
 # Metodos aplicables a las tuplas
 # Convertir de lista a tupla y viceversa
 
-miLista = list(miTupla)  # De tupla a lista
+miLista = list(miTupla)  # De tupla a lista # metodo list()
 print(miLista[:])
 
-miTupla = tuple(miLista)  # DE lista a tupla
+miTupla = tuple(miLista)  # DE lista a tupla # metodo tuple
 print(miTupla)
 
 # Una tupla tambien permite el metodo in para comprobar si hay un elemto en la tupla
 
 print('Juan' in miTupla)
 
-# El metodo count nos permite averiguar cuantos elemteos se encuentran en una tupla
+# El metodo count nos permite averiguar que elemteos se encuentran en una tupla o lista de forma repetida
+# El argumento que le pasamos es el elemento que deseamos buscar, es decir elemento que deseamos ver si se repite
+# en la lista o tupla: lo que retorna es el numero de veces que se encuentyra ese elento en nuestra tupla o lista
 print(miTupla.count(23))
 
 # El metodo len nos permite conocer la longitud de la tupla

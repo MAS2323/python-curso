@@ -1,7 +1,7 @@
 # Guardar archivos en nuestra computadora de forma permanente
 import pickle
 
-# El objetivo es mediante este codigo se vayan cargando la informacion en un fichero externo
+# El objetivo es que mediante este codigo se vayan cargando la informacion en un fichero externo
 
 
 class Persona:

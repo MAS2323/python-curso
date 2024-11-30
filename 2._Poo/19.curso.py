@@ -11,6 +11,7 @@ class Coche():
         self.__enmarcha = False
 
     def arrancar(self, arrancamos):  # metodo de nuestra clase
+        # arrancamos es un valor booleano que le pasan por parametro
         self.__enmarcha = arrancamos
 
         if (self.__enmarcha):

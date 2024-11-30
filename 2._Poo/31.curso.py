@@ -5,6 +5,7 @@ from abc import ABC, abstractmethod
 
 class Persona(ABC):
     @abstractmethod
+    # metodo constructor
     def __init__(self, nombre, edad, sexo, actividad) -> None:
         self.nombre = nombre
         self.edad = edad
@@ -23,6 +24,7 @@ class Persona(ABC):
 
 class Estudiante(Persona):
     def __init__(self, nombre, edad, sexo, actividad):
+        # pero no puede heredar el metodo abstracto
         super().__init__(nombre, edad, sexo, actividad)
 
     def hacer_actividad(self):

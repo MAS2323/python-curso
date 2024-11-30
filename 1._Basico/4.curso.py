@@ -30,7 +30,7 @@ print(indice)
 
 valor = "Manuel" in miLista
 print(valor)
-
+ 
 # Para eliminar un elemento de una lista utilizamos la funcion remove
 
 miLista.remove('Manuel')
@@ -42,6 +42,7 @@ print(miLista[:])
 
 print("-----------------------------suma de listas---------------------------")
 # Operador multiplicacion *, funciona como repetidor
+# Operador suma + sirve para concatenar
 
 milista2 = ['Jesus', 'Motu', 'Ela']
 miLista3 = miLista + milista2

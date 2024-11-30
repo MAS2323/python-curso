@@ -11,6 +11,8 @@ class Auto():
         print('El auto esta encendido')
 
     # Metodo abstracto
+    # Antes de conducir si el autho esta apagado de forma abstracta
+    # llamaremos al metodo encender
     def conducir(self):
         if self._estado == 'apagado':
             self.encender()

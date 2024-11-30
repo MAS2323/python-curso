@@ -24,7 +24,7 @@ def generarPares(limite):
 # Entre llamada y llamada el objeto generador entra en un estado de suspencion
 devuelvePares = generarPares(10)
 
-# La funcion next nos retorna el siguiente elemento de un objeto iterable
+# usamos la funion next para que nos retorne el siguiente elemento del objeto iterable
 
 print(next(devuelvePares))
 

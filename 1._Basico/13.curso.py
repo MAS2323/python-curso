@@ -13,7 +13,7 @@ import math
 
 # edad = int(input("Introduce tu edad por favor: "))
 
-# while edad < 0 or edad > 100:
+# while edad < 0 or edad > 100: # tiene que cumplir una de las dos condiciones
 #     print("Has introduciod una edad incorrecta. Vuelva a intentarlo")
 #     edad = int(input("Introduce tu edad por favor: "))
 
@@ -33,6 +33,7 @@ while numero < 0:
         print("Has consumido demasiados intentos. El programa ha finalizado")
         break
 
+    # La logica del calculo del programa se encuentra aqui
     numero = int(input("Introduce un numero por favor: "))
     if numero < 0:
         intentos = intentos + 1

@@ -13,10 +13,11 @@ class Persona():  # clase principal
               " Residencia: ", self.lugar_residencia)
 
 
-class Empleado(Persona):
+class Empleado(Persona):  # esta clase hereda de persona
     # Uso de la funcion super()
     def __init__(self, salario, antiguedad, nombre_empleado, edad_empleado, residencia_empleado):
         super().__init__(nombre_empleado, edad_empleado, residencia_empleado)
+        # Estas dos variables son exclusivas de la clase Empleado
         self.salario = salario
         self.antiguedad = antiguedad
 
